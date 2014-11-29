@@ -1,0 +1,14 @@
+
+<navigation>
+  <h1>Password-Server</h1>
+  <div class="navigation">
+    <% if (Parse.User.current()) { %>
+      <a href="./accounts">View Accounts</a>  |
+      <a href="./update">Add Account</a>  |
+      <a href="./logout">Log Out</a>
+    <% } else { %>
+      <a href="./login">Log In</a> |
+      <a href="./register">Sign Up</a>
+    <% } %>
+  </div>
+</navigation>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add/Update Account</title>
+  <% include ./partials/header %>
+</head>
+<body>
+  <div class="page">
+    <% include ./partials/navigation %>
+    <div class="body">
+
+      <h2><%= Parse.User.current().getUsername() %>'s Accounts</h2>
+      <ul class="accounts">
+        <ul class="labels">
+          <li>Account</li><li>Username</li><li>Password</li>
+        </ul>
+        <% for (var i = 0; i < accounts.length; i++) { %>
+          <ul class="account">
+            <li><%= accounts[i].get('type') %></li>
+            <li><%= accounts[i].get('username') %></li>
+            <li><%= accounts[i].get('password') %></li>
+          </ul>
+        <% } if (accounts.length == 0) { %>
+          <ul><em>There are no accounts created yet.</em>
+        <% } %>
+      </ul>
+
+    </div>
+  </div>
+  <% include ./partials/footer %>
+</body>
+</html>

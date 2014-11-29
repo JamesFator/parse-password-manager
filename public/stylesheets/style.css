@@ -1,0 +1,133 @@
+body {
+    background: #FAE4E4;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display: block;
+}
+
+input[type="submit"] {
+    background: white;
+    border: 1px solid #DD6F6F;
+    color: #DD6F6F;
+    padding: 1px 3px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: bold;
+}
+
+div.page {
+    background: white;
+    border: 1px solid #DD6F6F;
+    width: 700px;
+    margin: 30px auto;
+}
+
+div.page h1 {
+    background: #DD6F6F;
+    margin: 0;
+    padding: 10px 14px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+div.page div.navigation {
+    background: #DEE9E8;
+    padding: 4px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+    color: #888;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+div.page div.navigation a {
+    color: #444;
+    font-weight: bold;
+}
+
+div.page h2 {
+    margin: 0 0 15px 0;
+    color: black;
+}
+
+div.page div.body {
+    padding: 10px;
+}
+
+div.page div.footer {
+    background: #eee;
+    color: #888;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+div.page ul.accounts {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+div.page ul.accounts ul.labels {
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.page ul.accounts ul.labels li {
+    margin: 10px 0;
+    padding: 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+div.page ul.accounts ul.account {
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.page ul.accounts ul.account li {
+    margin: 10px 0;
+    padding: 5px 0;
+    background: #FAE4E4;
+    border: 1px solid #DD6F6F;
+    display: inline-block;
+    width: 100%;
+}
+
+div.error {
+    margin: 10px 0;
+    background: #FAE4E4;
+    border: 1px solid #DD6F6F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 4px;
+    font-size: 13px;
+}
+
+footer {
+    background: #FAE4E4;
+    text-align: center;
+    font-size: 14px;
+}

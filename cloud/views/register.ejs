@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <% include ./partials/header %>
+</head>
+<body>
+  <div class="page">
+    <% include ./partials/navigation %>
+    <div class="body">
+
+      <h2>Register</h2>
+      <% if (error) { %>
+        <div class="error"><strong>Error: </strong><%= error %></div>
+      <% } %>
+      <form method="post" action="/register">
+        <p>
+          <label>Username:</label>
+          <input type="text" name="username">
+        </p>
+        <p>
+          <label>Email:</label>
+          <input type="text" name="email">
+        </p>
+        <p>
+          <label>Password:</label>
+          <input type="password" name="password">
+        </p>
+        <input class="button" type="submit" value="Sign Up">
+      </form>
+
+    </div>
+  </div>
+  <% include ./partials/footer %>
+</body>
+</html>

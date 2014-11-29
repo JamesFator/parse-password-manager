@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "APP_NAME": {
+            "applicationId": "APPLICATION_ID", 
+            "masterKey": "MASTER_KEY"
+        }, 
+        "_default": {
+            "link": "APP_NAME"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.2"
+    }
+}
